@@ -91,7 +91,7 @@ export default function App() {
       />
       <View style={{ justifyContent: "space-between", flexDirection: 'row', width: '100%', height: 80, alignItems: 'center', paddingLeft: 20, paddingRight: 20 }}>
         <Text style={{ color: 'black', fontSize: 18, fontWeight: 'bold' }}>Tạm tính</Text>
-        <Text style={{ marginBottom: 10, fontSize: 18, fontWeight: 'bold', color: 'red' }}>1000{price * count}00 đ</Text>
+        <Text style={{ marginBottom: 10, fontSize: 18, fontWeight: 'bold', color: 'red' }}>{price * count} đ</Text>
       </View>
 
       <View
